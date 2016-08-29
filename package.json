@@ -1,7 +1,7 @@
 {
   "name": "array-hash-upsert",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Add or update a value in an array/hash pair",
   "license": "MIT",
   "repository": "ajoslin/array-hash-upsert",
