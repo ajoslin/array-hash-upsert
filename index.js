@@ -1,6 +1,6 @@
 'use strict'
 
-const assign = require('xtend/mutable')
+var assign = require('xtend/mutable')
 
 module.exports = function arrayHashUpsert (array, hash, idKey) {
   idKey = idKey || 'id'
