@@ -8,7 +8,7 @@ module.exports = function arrayHashUpsert (array, hash, idKey) {
   return function upsert (value) {
     if (!value) return
 
-    const id = value[idKey]
+    var id = value[idKey]
     if (id == null) return
 
     if (id in hash) {
